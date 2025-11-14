@@ -9,21 +9,22 @@ import org.springframework.stereotype.Component;
 public class BookDtoMapper {
     
     public Book toDomain(CreateBookRequestDto requestDto) {
-        return Book.builder()
-                .title(requestDto.title())
-                .author(requestDto.author())
-                .isbn(requestDto.isbn())
-                .publishedYear(requestDto.publishedYear())
-                .build();
+        return new Book(
+                null, // ID will be generated
+                requestDto.title(),
+                requestDto.author(),
+                requestDto.isbn(),
+                requestDto.publishedYear()
+        );
     }
     
     public BookResponseDto toResponseDto(Book book) {
-        return BookResponseDto.builder()
-                .id(book.id())
-                .title(book.title())
-                .author(book.author())
-                .isbn(book.isbn())
-                .publishedYear(book.publishedYear())
-                .build();
+        return new BookResponseDto(
+                book.id(),
+                book.title(),
+                book.author(),
+                book.isbn(),
+                book.publishedYear()
+        );
     }
 }

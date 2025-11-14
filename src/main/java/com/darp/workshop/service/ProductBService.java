@@ -13,12 +13,13 @@ public class ProductBService {
     private final BookUseCase bookUseCase;
     
     public Mono<Book> fetchBookInfo() {
-        Book sampleBook = Book.builder()
-                .title("Cumbres Borrascosas")
-                .author("Emily Brontë")
-                .isbn("978-84-376-0494-7")
-                .publishedYear(1847)
-                .build();
+        Book sampleBook = new Book(
+                null,
+                "Cumbres Borrascosas",
+                "Emily Brontë",
+                "978-84-376-0494-7",
+                1847
+        );
         
         return bookUseCase.createBook(sampleBook);
     }

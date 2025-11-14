@@ -1,9 +1,7 @@
 package com.darp.workshop.infrastructure.web.dto.request;
 
 import jakarta.validation.constraints.*;
-import lombok.Builder;
 
-@Builder
 public record CreateBookRequestDto(
         @NotBlank(message = "Title is required")
         @Size(min = 1, max = 255, message = "Title must be between 1 and 255 characters")
