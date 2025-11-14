@@ -1,4 +1,4 @@
-# Git Workshop - Spring Boot Microservices
+# Java Microservices - Product Management
 
 Este repositorio contiene un taller práctico diseñado para enseñar conceptos avanzados de Git a través del desarrollo de dos microservicios utilizando Spring Boot. Los participantes aprenderán a manejar ramas, resolver conflictos, utilizar stash y cherry-pick, y más, mientras construyen una aplicación funcional.
 
