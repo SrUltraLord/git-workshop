@@ -4,7 +4,7 @@ import com.darp.workshop.model.Book;
 import org.springframework.stereotype.Service;
 
 @Service
-public class BService {
+public class ProductBService {
     public Book fetchBookInfo() {
         return Book.builder()
                 .title("Cumbres Borrascosas")
