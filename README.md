@@ -1,5 +1,7 @@
 # Git Workshop - Spring Boot Microservices
 
+Este repositorio contiene un taller práctico diseñado para enseñar conceptos avanzados de Git a través del desarrollo de dos microservicios utilizando Spring Boot. Los participantes aprenderán a manejar ramas, resolver conflictos, utilizar stash y cherry-pick, y más, mientras construyen una aplicación funcional.
+
 ## ✅ TODO
 
 Ejercicio 1: Configuración e Inicialización
@@ -17,9 +19,9 @@ Ejercicio 1: Configuración e Inicialización
 - [x] ¿Se creó la estructura de carpetas y el archivo ProductManagementApplication.java?
 - [x] ¿Se realizó el commit con el mensaje feat: add product service structure?
       Ejercicio 4: Desarrollo del ProductController
-- [ ] ¿Se creó ProductoController.java con los métodos GET y POST funcionales?
-- [ ] ¿Se agregó el archivo application.properties con la configuración correcta?
-- [ ] ¿Se realizó el commit con el mensaje feat: implement product controller with inventory management?
+- [x] ¿Se creó ProductoController.java con los métodos GET y POST funcionales?
+- [x] ¿Se agregó el archivo application.properties con la configuración correcta?
+- [x] ¿Se realizó el commit con el mensaje feat: implement product controller with inventory management?
       Ejercicio 5: Merge y Resolución de Conflictos
 - [ ] ¿Se creó el conflicto en README.md en ambas ramas?
 - [ ] ¿Se intentó el merge y se resolvió el conflicto correctamente?
@@ -39,3 +41,7 @@ Ejercicio 1: Configuración e Inicialización
 - [ ] ¿Se probaron los endpoints con curl para crear y listar usuarios/productos?
 - [ ] ¿Se verificó el historial con git log --oneline --graph --all?
 - [ ] ¿Se listaron las ramas con git branch -a?
+
+## Author
+
+- David Reyes
