@@ -1,0 +1,2 @@
+-- JPA will create the table automatically with hibernate.ddl-auto=create-drop
+-- This file is kept for reference but not used with JPA auto-generation
